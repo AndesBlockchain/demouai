@@ -2,7 +2,7 @@ pragma solidity ^0.5.2;
 
 contract DemoUAI {
     
-    mapping(string=>bool) public registro;
+    mapping(string=>bool) registro;
     
     function registrar(string memory _registrar) public {
         registro[_registrar] = true;
